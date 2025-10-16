@@ -73,7 +73,7 @@ body{
 
 
 /* SECTIONS */
-section{
+.content-home, .content-skills, .content-projects, .content-contact{
     height: 100vh;
     background: url(../assets/img/background.png);
 }
@@ -121,13 +121,50 @@ section{
 /* SECTION SKILLS */
 .content-skills{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
-    background-size: 100%;
-    background-repeat: no-repeat;   
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
+
+.content-skills h1{
+
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 48px;
+
+    background: linear-gradient(180deg, #5DF3E4 31.03%, #368D84 79.31%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.box-skills{
+    display: flex;
+    gap: 60px;
+
+}
+
+.skill-card{
+    justify-content: center;
+}
+
+.skill-card img{
+    margin-top: 60px;
+    height: 240px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
 
 /* FOOTER */
 footer{
