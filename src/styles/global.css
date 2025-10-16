@@ -60,14 +60,15 @@ body{
     user-select: none;
     color: #ffffff;
     text-decoration: none;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
     font-size: 20px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent; 
 }
 
 .header-menu li a:hover{
     color: #5DF3E4;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
+
 
 }
 
@@ -147,7 +148,7 @@ body{
 
 .box-skills{
     display: flex;
-    gap: 60px;
+    gap: 120px;
 
 }
 
@@ -156,7 +157,7 @@ body{
 }
 
 .skill-card img{
-    margin-top: 60px;
+    margin-top: 150px;
     height: 240px;
     margin-bottom: 12px;
 }
