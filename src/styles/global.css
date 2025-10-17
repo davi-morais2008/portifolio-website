@@ -132,7 +132,6 @@ body{
 }
 
 .content-skills h1{
-
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
@@ -162,10 +161,116 @@ body{
     margin-bottom: 12px;
 }
 
+.box-skills figcaption{
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    background: linear-gradient(180deg, #FFF 0%, #1C1B1B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* SECTION PROJECTS */
+.content-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-projects h1{
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 48px;
+
+    background: linear-gradient(180deg, #5DF3E4 31.03%, #368D84 79.31%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center; /* centraliza os cards */
+    gap: 40px; /* espaçamento entre eles */
+    margin-top: 60px;
+}
+    
 
 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background: linear-gradient(180deg, #161616 0%, #000 80%);
+    width: 400px; 
+    height: 450px; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 
 
+.card:hover {
+    border: 1px solid #5DF3E4;
+    box-shadow: 0 0 15px rgba(93, 243, 228, 0.2);
+}
+
+.cards-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img{
+    height: 40px;
+}
+
+.card h2{
+    font-size: 26px;
+    margin: 0;
+}
+
+.card p{
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.card a{
+    display: inline-block; 
+    width: 50%;
+    padding: 8px 10px; 
+    font-size: 16px;         
+    border-radius: 15px;        
+    background-color: #5DF3E4;
+    color: #000;
+    text-decoration: none;
+    text-align: center;          
+    margin: 10px auto 0 auto;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card a:hover{
+    background-color: #fff;
+    color: #5DF3E4;
+    box-shadow: 0 0 10px rgba(3, 203, 218, 0.457);
+}
 
 /* FOOTER */
 footer{
