@@ -11,13 +11,20 @@ Este é um portfólio desenvolvido como parte de uma **atividade avaliativa esco
 
 ---
 
+## 🎨 Inspiração Visual
+
+O design deste portfólio foi inspirado no personagem **Muichirou Tokito**, do anime *Demon Slayer (Kimetsu no Yaiba)*.  
+A **paleta de cores oficial do personagem** foi utilizada como base para a identidade visual do site, trazendo um estilo suave e harmonioso que remete à personalidade e estética do personagem.
+
+---
+
 ## 📌 Seções do Portfólio
 
 O site é dividido em quatro sessões principais:
 
-- **Home** — Apresentação inicial
-- **Skills** — Tecnologias e competências
-- **Projects** — Projetos desenvolvidos
+- **Home** — Apresentação inicial  
+- **Skills** — Tecnologias e competências  
+- **Projects** — Projetos desenvolvidos  
 - **Contact** — Formas de contato
 
 ---
@@ -37,12 +44,6 @@ Ou visualizar localmente:
 
 ## 🎯 Objetivo do Projeto
 
-Este portfólio foi criado com o propósito de praticar a construção de interfaces utilizando **HTML e CSS**, além de apresentar uma identidade visual pessoal de forma organizada e responsiva.
-
----
-
-📩 **Contato**
-
-Caso queira entrar em contato, acesse a seção de *Contact* no site.
+Este portfólio foi criado para a disciplina **[inserir nome da matéria, se quiser]**, com o propósito de praticar a construção de interfaces utilizando **HTML e CSS**, além de apresentar uma identidade visual pessoal de forma organizada e responsiva.
 
 ---
