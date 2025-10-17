@@ -44,6 +44,6 @@ Ou visualizar localmente:
 
 ## 🎯 Objetivo do Projeto
 
-Este portfólio foi criado para a disciplina **[inserir nome da matéria, se quiser]**, com o propósito de praticar a construção de interfaces utilizando **HTML e CSS**, além de apresentar uma identidade visual pessoal de forma organizada e responsiva.
+Este portfólio foi criado para a disciplina com o propósito de praticar a construção de interfaces utilizando **HTML e CSS**, além de apresentar uma identidade visual pessoal de forma organizada e responsiva.
 
 ---
